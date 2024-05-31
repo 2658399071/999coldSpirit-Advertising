@@ -1,0 +1,22 @@
+#container {
+  position: relative;
+  width: 100%; /* 根据需要设置宽度 */
+}
+ 
+#image {
+  position: absolute;
+  top: 0;
+  width: 20%; /* 根据需要设置宽度 */
+  animation: drop 5s forwards;
+}
+ 
+#text {
+  position: relative;
+  top: 0; /* 初始位置 */
+}
+ 
+@keyframes drop {
+  to {
+    top: 100%; /* 移动到容器底部 */
+  }
+}
