@@ -29,7 +29,11 @@ var bjTwo = document.getElementsByClassName("top-bj-two")[0];
 
 var twoBottom = document.getElementsByClassName("two-bottom")[0];
 var maxTwo = document.getElementsByClassName("max-two")[0];
-var oneBj = document.getElementsByClassName("top-one-bj")[0];
+var oneBj = document.getElementsByClassName("one-bj-img")[0];
+var Oneshan= document.getElementsByClassName("one-shan")[0];
+var Twoshan= document.getElementsByClassName("two-shan")[0];
+var Gong= document.getElementsByClassName("gong")[0];
+
 var ganTan = document.getElementsByClassName("gantan")[0];
 var imgOne = document.getElementsByClassName("two-one-img")[0];
 var Ten = document.getElementsByClassName("ten")[0];
@@ -61,6 +65,10 @@ twoBottom.onclick = function () {
     maxTwo.style.display = 'none';
   
     oneBj.classList.add('top-one-bjt');
+    Oneshan.classList.add('one-shant');
+    Twoshan.classList.add('two-shant');
+    Gong.classList.add('gongt');
+    
     setTimeout(() => {
         ganTan.classList.add('gantant');
     
