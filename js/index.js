@@ -23,17 +23,12 @@ But.onclick=function (){
 const Buttwo = document.getElementById("Buttwo")
 Buttwo.onclick=function (){
     maxFive.style.display = "none";
-    console.log("2")
 }
 var bjTwo = document.getElementsByClassName("top-bj-two")[0];
 
 var twoBottom = document.getElementsByClassName("two-bottom")[0];
 var maxTwo = document.getElementsByClassName("max-two")[0];
-var oneBj = document.getElementsByClassName("one-bj-img")[0];
-var Oneshan= document.getElementsByClassName("one-shan")[0];
-var Twoshan= document.getElementsByClassName("two-shan")[0];
-var Gong= document.getElementsByClassName("gong")[0];
-
+var oneBj = document.getElementsByClassName("top-one-bj")[0];
 var ganTan = document.getElementsByClassName("gantan")[0];
 var imgOne = document.getElementsByClassName("two-one-img")[0];
 var Ten = document.getElementsByClassName("ten")[0];
@@ -58,17 +53,41 @@ var wzFive= document.getElementsByClassName("four-wz-three")[0];
 var maxFour= document.getElementsByClassName("max-four")[0];
 var imgSix= document.getElementsByClassName("wz-four-img")[0];
 var imgSeven= document.getElementsByClassName("wz-four-imgtwo")[0];
+var maxSix= document.getElementsByClassName("max-six")[0];
 var maxFive= document.getElementsByClassName("max-five")[0];
+var maxSeven= document.getElementsByClassName("max-seven")[0];
+var bottomThree= document.getElementsByClassName("bottom-three")[0];
+var maxEight= document.getElementsByClassName("max-eight")[0];
+var maxNine= document.getElementsByClassName("max-nine")[0];
 
+
+const Butthree = document.getElementById("Butthree")
+Butthree.onclick = function () {
+  maxSix.style.display = 'none';
+  maxSeven.style.display = '';
+}
+
+const Butfour = document.getElementById("Butfour")
+Butfour.onclick = function () {
+  maxSix.style.display = 'none';
+  maxEight.style.display = '';
+}
+
+const Butfive = document.getElementById("Butfive")
+Butfive.onclick = function () {
+  maxSix.style.display = 'none';
+  maxNine.style.display = '';
+}
+
+const Butsix = document.getElementById("Butsix")
+Butsix.onclick = function () {
+  maxSix.style.display = '';
+}
 
 twoBottom.onclick = function () {
     maxTwo.style.display = 'none';
   
     oneBj.classList.add('top-one-bjt');
-    Oneshan.classList.add('one-shant');
-    Twoshan.classList.add('two-shant');
-    Gong.classList.add('gongt');
-    
     setTimeout(() => {
         ganTan.classList.add('gantant');
     
@@ -159,5 +178,46 @@ var xImg = document.getElementsByClassName("x-img")[0];
 var pOne = document.getElementsByClassName("p-one")[0];
 var pTow = document.getElementsByClassName("p-tow")[0];
 var yzImg = document.getElementsByClassName("yz-img")[0];
+var butThree = document.getElementsByClassName("bottom-three")[0];
+var sevenBj = document.getElementsByClassName("seven-top-bj")[0];
+var sevenBjtwo = document.getElementsByClassName("seven-bottom-bj")[0];
+
+var seventopTp = document.getElementsByClassName("seven-top-tp")[0];
+var seventopTp1 = document.getElementsByClassName("seven-top-tp1")[0];
+var seventopTp2 = document.getElementsByClassName("seven-top-tp2")[0];
+var seventopTp3 = document.getElementsByClassName("seven-top-tp3")[0];
+var sevenbottomTp1 = document.getElementsByClassName("seven-bottom-tp1")[0];
+var sevenbottomTp2 = document.getElementsByClassName("seven-bottom-tp2")[0];
+var seventopTp4 = document.getElementsByClassName("seven-top-tp4")[0];
+var maxTen = document.getElementsByClassName("max-ten")[0];
 
 
+Butthree.onclick = function () {
+  maxSix.style.display = 'none';
+  maxSeven.style.display = '';
+
+  sevenBj.classList.add('seven-top-bjt');
+  setTimeout(() => {
+    sevenBjtwo.classList.add('seven-bottom-bjt')
+  }, 2000);
+  setTimeout(() => {
+    seventopTp.classList.add('seven-top-tpt');
+    seventopTp1.classList.add('seven-top-tp1t');
+  }, 4000);
+  setTimeout(() => {
+    seventopTp2.classList.add('seven-top-tp2t');
+  }, 6000);
+  setTimeout(() => {
+    seventopTp3.classList.add('seven-top-tp3t');
+  }, 8000);
+  setTimeout(() => {
+    seventopTp4.classList.add('seven-top-tp4t');
+  }, 10000);
+  setTimeout(() => {
+    sevenbottomTp1.classList.add('seven-bottom-tp1t');
+    sevenbottomTp2.classList.add('seven-bottom-tp2t');
+  }, 12000);
+  setTimeout(() => {
+    maxSeven.style.display ='none';
+  }, 14000);
+}
