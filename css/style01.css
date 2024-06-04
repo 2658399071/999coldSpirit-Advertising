@@ -991,11 +991,21 @@ body{
   position: absolute;
   width: 100%;
   top: 10%;
+  opacity: 0;
+}
+.eight-top-tp1t{
+  animation: enter-x-left 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
 }
 .eight-bottom-tp1{
   position: absolute;
   width: 100%;
   bottom: 0;
+  opacity: 0;
+}
+.eight-bottom-tp1t{
+  animation: showtow 3s ease-in-out forwards;
 }
 .eight-top-tp2{
   position: absolute;
@@ -1003,25 +1013,60 @@ body{
   bottom: -24%;
   z-index: 9;
   left: 25%;
-  
+  opacity: 0;
+}
+.eight-top-tp2t{
+  animation: showtow 3s ease-in-out forwards;
+}
+.eight-top-tp3t{
+  animation: showtow 3s ease-in-out forwards;
 }
 .eight-top-tp3{
   position: absolute;
   bottom: 29%;
   width: 15%;
   left: 25%;
+  opacity: 0;
+}
+.eight-top-tp4t{
+  animation: showtow 3s ease-in-out forwards;
 }
 .eight-top-tp4{
   bottom: 18%;
   position: absolute;
   width: 45%;
   right: 5%;
+  opacity: 0;
+}
+.eight-bottom-tp5{
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  right: 5%;
+  opacity: 0;
+}
+.eight-bottom-tp5t{
+  animation: showtow 3s ease-in-out forwards;
+}
+.eight-bottom-tp3t{
+  animation: showtow 3s ease-in-out forwards;
+}
+.eight-bottom-tp3{
+  bottom: 15%;
+  position: absolute;
+  width: 50%;
+  left: 5%;
+  opacity: 0;
 }
 .eight-bottom-tp2{
   position: absolute;
   width: 45%;
   left: 1%;
   top: 5%;
+  opacity: 0;
+}
+.eight-bottom-tp2t{
+  animation: showtow 3s ease-in-out forwards;
 }
 .max-nine{
   width: 100%;
@@ -1033,30 +1078,86 @@ body{
   z-index: 9;
   justify-content: space-evenly;
 }
+.nine-top-tp{
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  opacity: 0;
+}
+.nine-top-tpt{
+  animation: enter-x-left 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+.nine-bottom-tp1{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+}
+.nine-bottom-tp1t{
+  animation: showtow 3s ease-in-out forwards;
+}
 .nine-top-tp1{
   position: absolute;
   width: 90%;
   z-index: 9;
   left:7%;
   bottom: -33%;
+  opacity: 0;
+}
+.nine-top-tp1t{
+  animation: showtow 3s ease-in-out forwards;
+}
+.nine-top-tp2t{
+  animation: showtow 3s ease-in-out forwards;
 }
 .nine-top-tp2{
   position: absolute;
   width: 45%;
   bottom: 34%;
   left: 3%;
+  opacity: 0;
 }
 .nine-bottom-tp2{
   position: absolute;
   width: 50%;
   top: -3%;
   right: 0;
+  opacity: 0;
+}
+.nine-bottom-tp2t{
+  animation: showtow 3s ease-in-out forwards;
+}
+.nine-bottom-tp3t{
+  animation: showtow 3s ease-in-out forwards;
 }
 .nine-bottom-tp3{
   position: absolute;
   width: 35%;
   top: 20%;
   left: 10%;
+  opacity: 0;
+}
+.nine-bottom-tp4{
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  right: 5%;
+  opacity: 0;
+}
+.nine-bottom-tp4t{
+  animation: showtow 3s ease-in-out forwards;
+}
+.nine-bottom-tp5t{
+  animation: showtow 3s ease-in-out forwards;
+}
+.nine-bottom-tp5{
+  bottom: 15%;
+  position: absolute;
+  width: 50%;
+  left: 5%;
+  opacity: 0;
 }
 .max-ten{
   width: 100%;

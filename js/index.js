@@ -221,3 +221,83 @@ Butthree.onclick = function () {
     maxSeven.style.display ='none';
   }, 14000);
 }
+
+
+var eighttopTp1 = document.getElementsByClassName("eight-top-tp1")[0];
+var eightbottomTp1 = document.getElementsByClassName("eight-bottom-tp1")[0];
+var eighttopTp2 = document.getElementsByClassName("eight-top-tp2")[0];
+var eighttopTp3 = document.getElementsByClassName("eight-top-tp3")[0];
+var eighttopTp4 = document.getElementsByClassName("eight-top-tp4")[0];
+var eightbottomTp2 = document.getElementsByClassName("eight-bottom-tp2")[0];
+var eightbottomTp5 = document.getElementsByClassName("eight-bottom-tp5")[0];
+var eightbottomTp3 = document.getElementsByClassName("eight-bottom-tp3")[0];
+
+
+Butfour.onclick = function () {
+  maxSix.style.display = 'none';
+  maxEight.style.display = '';
+
+  eighttopTp1.classList.add('eight-top-tp1t');
+  setTimeout(() => {
+    eightbottomTp1.classList.add('eight-bottom-tp1t');
+  }, 2000);
+  setTimeout(() => {
+    eighttopTp2.classList.add('eight-top-tp2t');
+    eighttopTp3.classList.add('eight-top-tp3t');
+  }, 4000);
+  setTimeout(() => {
+    eighttopTp4.classList.add('eight-top-tp4t');
+  }, 6000);
+  setTimeout(() => {
+    eightbottomTp2.classList.add('eight-bottom-tp2t');
+  }, 8000);
+  setTimeout(() => {
+    eightbottomTp5.classList.add('eight-bottom-tp5t');
+    eightbottomTp3.classList.add('eight-bottom-tp3t');
+  }, 10000);
+  setTimeout(() => {
+    maxEight.style.display ='none';
+  }, 13000);
+}
+
+
+var ninetopTp = document.getElementsByClassName("nine-top-tp")[0];
+var ninebottomTp1 = document.getElementsByClassName("nine-bottom-tp1")[0];
+var ninetopTp1 = document.getElementsByClassName("nine-top-tp1")[0];
+var ninetopTp2 = document.getElementsByClassName("nine-top-tp2")[0];
+var ninebottomTp2 = document.getElementsByClassName("nine-bottom-tp2")[0];
+var ninebottomTp3 = document.getElementsByClassName("nine-bottom-tp3")[0];
+var ninebottomTp4 = document.getElementsByClassName("nine-bottom-tp4")[0];
+var ninebottomTp5 = document.getElementsByClassName("nine-bottom-tp5")[0];
+
+
+
+
+Butfive.onclick = function () {
+  maxSix.style.display = 'none';
+  maxNine.style.display = '';
+
+  ninetopTp.classList.add('nine-top-tpt');
+  setTimeout(() => {
+    ninebottomTp1.classList.add('nine-bottom-tp1t');
+  }, 2000);
+  setTimeout(() => {
+    ninetopTp1.classList.add('nine-top-tp1t');
+  }, 4000);
+  setTimeout(() => {
+    ninetopTp2.classList.add('nine-top-tp2t');
+  }, 6000);
+  setTimeout(() => {
+    ninebottomTp2.classList.add('nine-bottom-tp2t');
+  }, 8000);
+  setTimeout(() => {
+    ninebottomTp3.classList.add('nine-bottom-tp3t');
+  }, 10000);
+  setTimeout(() => {
+    ninebottomTp4.classList.add('nine-bottom-tp4t');
+    ninebottomTp5.classList.add('nine-bottom-tp5t');
+  }, 12000);
+  setTimeout(() => {
+    maxNine.style.display ='none';
+  }, 15000);
+}
