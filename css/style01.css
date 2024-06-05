@@ -53,13 +53,15 @@ body{
 }
 
 .logo{  
-  width: 32%;
+  width: 40%;
   position: absolute;
-  z-index: 1;
+  z-index: 15;
+  top: 30%;
 }
 .logo2{  
-  width: 30%;
+  width: 40%;
   position: absolute;
+  top: 30%;
 }
 .jd{
   width: 225px;
@@ -70,11 +72,20 @@ body{
   align-items: center;
   margin-top: 60%;
 }
-.max-one>span{
-  margin-top: 10px;
+.max-one-zi{
+  position: absolute;
+  top: 70%;
 }
-/* 进度条容器样式 */
-.progress {
+#wrapper {
+  width: 225px;
+  height: 23px;
+  background-color: hsl(36, 26%, 96%);
+  position: absolute;
+  border-radius: 20px 20px 20px 20px;
+  top: 65%;
+}
+
+#progressbar {
   width: 225px;
   height: 23px;
   background-color: hsl(36, 26%, 96%);
@@ -82,42 +93,27 @@ body{
   border-radius: 20px 20px 20px 20px;
 }
 
-/* 进度条条形样式 */
-.bar {
+/*在进度条元素上调用动画*/
+#fill {
   width: 0%;
   height: 100%;
   border-radius: 20px 20px 20px 20px;
   background-color: #f59607;
   position: absolute;
-  animation: progress-animation 5s ease-in-out infinite;
-  display: flex;
-  align-items: center;
-}
-.rec {
-  width: 53px;
-  height: 29px;
-  background-image: url("../images/2.png ");
-  position: absolute;
-  animation:  move 5s ease-in-out infinite;
+  animation: move 12s;
+  text-align: center;
 }
 
+/*实现元素宽度的过渡动画效果*/
 @keyframes move {
   0% {
-    left: 0%;
-  }
-  100% {
-    left: 100%;
-  }
-}
-/* 进度条动画 */
-@keyframes progress-animation {
-  0% {
-    width: 0%;
+    width: 0;
   }
   100% {
     width: 100%;
   }
 }
+
 .max-two{
   width: 100%;
   height: 100%;
@@ -160,6 +156,12 @@ body{
   width: 30%;
   margin-left: 48%;
   position: absolute;
+  opacity: 0;
+}
+.zj-topt{
+  animation: enter-x-left 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-260%);
 }
 .zj-one{
   width: 60%;
@@ -196,7 +198,7 @@ body{
   margin-top: -65%;
 }
 .top-bj-twot{
-  animation: drop 4s cubic-bezier(0.4, 0, 0.2, 0.5) forwards;
+  animation: drop 2s cubic-bezier(0.4, 0, 0.2, 0.5) forwards;
 }
 @keyframes drop {
   to {
@@ -205,22 +207,13 @@ body{
 }
 .bottom-one{
   width: 60%;
-  height: 30%;
+  height: 35%;
   background-color: #f59607;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   position: absolute;
-}
-.bottom-one>p{
-  width: 80%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: aliceblue;
-  font-size: 35px;
-  font-weight: 600;
+  top: 10%;
 }
 .max-three{
   width: 100%;
@@ -271,7 +264,7 @@ body{
 }
 .top-two-one{
   width: 49%;
-  height: 100%;
+  height: 89%;
   position: relative;
 }
 .two-one-img{
@@ -293,7 +286,7 @@ body{
 }
 .top-two-two{
   width: 49%;
-  height: 100%;
+  height: 90%;
   position: relative;
 }
 .two-two-img{
@@ -315,7 +308,7 @@ body{
 }
 .three-top-three{
   width: 100%;
-  height: 48%;
+  height: 55%;
   position: relative;
   bottom: 13%;
 }
@@ -373,11 +366,12 @@ body{
   transform: translateX(-50px);
 }
 .ten{
-  width: 100%;
+  width: 85%;
   position: absolute;
-  margin-left: 3%;
-  bottom: 10%;
+  margin-left: 18%;
+  bottom: 8%;
   opacity: 0;
+  z-index: 13;
 }
 .tent{
   animation: enter-x-left 2s ease-in-out 0.3s;
@@ -570,7 +564,7 @@ body{
 .four-wz-four{
   width: 50%;
   height: 27%;
-  bottom: -9%;
+  bottom: -4%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -745,7 +739,7 @@ body{
 }
 .six-bj{
   position: absolute;
-  height: 100%;
+    height: 100%;
 }
 .six-bj-one{
   width: 80%;
@@ -761,7 +755,7 @@ body{
 .six-bj-three{
   width: 65%;
   position: absolute;
-  margin-top: 36%;
+  margin-top: 30%;
 }
 .six-bj-four{
   width: 100%;
@@ -1218,4 +1212,417 @@ body{
   width: 40%;
   bottom: -25%;
   z-index: 8;
+}
+.max-eleven{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #fff4e3;
+  z-index: 7;
+  justify-content: space-evenly;
+}
+.eleven-bj{
+  position: absolute;
+  height: 100%;
+}
+.eleven-tp{
+  position: absolute;
+  width: 45%;
+  z-index: 7;
+  top: 35%;
+}
+.eleven-zj-tp{
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.eleven-tp1{
+  position: absolute;
+  width: 100%;
+}
+#eleven-tp1-img{
+  animation: guang 2s linear forwards, blink 1s infinite;
+
+}
+@keyframes guang {
+  0%{
+    transform: translateX(-5px) rotate(0deg);
+  }
+  50%{
+    transform: translateX(5px) rotate(10deg);
+  }
+  10%{
+    transform: translateX(-5px) rotate(0deg);
+  }
+} 
+@keyframes blink {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.eleven-tp2{
+  position: absolute;
+  top: 26%;
+  width: 8%;
+  left: 30%;
+  animation: guang 2s linear forwards, blink 1s infinite;
+
+}
+.eleven-tp3{
+  position: absolute;
+  top: 35%;
+  width: 8%;
+  left: 75%;
+  animation: guang 2s linear forwards, blink 1s infinite;
+
+}
+.eleven-tp4{
+  position: absolute;
+  top: 30%;
+  width: 4%;
+  left: 77%;
+  animation: guang 2s linear forwards, blink 1s infinite;
+
+}
+.eleven-tp5{
+  position: absolute;
+  top: 17%;
+  width: 4%;
+  left: 60%;
+  animation: guang 2s linear forwards, blink 1s infinite;
+
+}
+.eleven-tp6{
+  position: absolute;
+  width: 4%;
+  left: 27%;
+  bottom: 25%;
+  animation: guang 2s linear forwards, blink 1s infinite;
+
+}
+.eleven-tp7{
+  position: absolute;
+  width: 6%;
+  bottom: 28%;
+  left: 21%;
+  animation: guang 2s linear forwards, blink 1s infinite;
+
+}
+.eleven-zj-tp1{
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.eleven-zj-tp1t{
+  animation: showtow 0.3s ease-in-out forwards;
+
+}
+.eleven-one-tp{
+  left: 32%;
+  position: absolute;
+  width: 55%;
+  top: 53%;
+  z-index: 7;
+
+}
+.eleven-one-tp1{
+  position: absolute;
+  width: 100%;
+ animation: guang 2s linear forwards, blink 1s infinite;
+
+}
+.eleven-one-tp2{
+  position: absolute;
+  width: 35%;
+  transform: rotateZ(-18deg);
+  left: 20%;
+  top: 50%;
+}
+.eleven-one-tp3{
+  position: absolute;
+  width: 90%;
+  top: -15%;
+  left: 15%;
+}
+.max-twelve{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #fff4e3;
+  z-index: 6;
+  justify-content: space-evenly;
+}
+.twelve-top-one{
+  width: 100%;
+  height: 25%;
+  position: relative;
+}
+.twelve-top-two{
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.twelve-top-three{
+  width: 100%;
+  height: 49%;
+  position: relative;
+  bottom: 10%;
+}
+.twelve-tp{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+.twelve-tpt{
+    animation: showtow 3s ease-in-out forwards;
+}
+.twelve-one-img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+.twelve-two-img{
+  width: 100%;
+  height: 78%;
+  position: absolute;
+  opacity: 0;
+}
+.twelve-one-imgt{
+  animation: enter-x-left 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+.twelve-two-imgt{
+  animation: enter-x-right 2s ease-in-out 0.3s;
+    animation-fill-mode: forwards;
+    transform: translateX(50px);
+}
+.twelve-three-img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+.twelve-three-imgt{
+  animation: four-x-right 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateY(50px);
+}
+.twelve-top-left{
+  width: 49%;
+  height: 98%;
+  position: relative;
+}
+.twelve-top-right{
+  width: 49%;
+  height: 100%;
+  position: relative;
+}
+.twelve-max-zj{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.twelve-left{
+  width: 30%;
+  height: 100%;
+  position: relative;
+  opacity: 0;
+}
+.twelve-leftt{
+  animation: enter-x-left 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+.twelve-top-left-max{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.twelve-top-left-maxt{
+  animation: showtow 3s ease-in-out forwards;
+}
+.twelve-top-right-max{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.twelve-top-right-maxt{
+  animation: showtow 3s ease-in-out forwards;
+}
+.twelve-left-one{
+  position: absolute;
+  width: 90%;
+  left: 10%;
+  top: 2%;
+}
+.twelve-left-two{
+  position: absolute;
+  width: 40%;
+  left: 89%;
+  top: 10%;
+}
+.twelve-left-three{
+  position: absolute;
+  width: 50%;
+  top: 64%;
+  left: 60%;
+}
+.twelve-zj{
+  width: 40%;
+  height: 100%;
+  position: relative;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.twelve-zjt{
+  animation: showtow 3s ease-in-out forwards;
+}
+.twelve-zj-one{
+  position: absolute;
+  width: 100%;
+  bottom: -10%;
+}
+.twelve-right{
+  width: 30%;
+  height: 100%;
+  position: relative;
+  opacity: 0;
+}
+.twelve-rightt{
+  animation: enter-x-right 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+.twelve-right-one{
+  position: absolute;
+  width: 90%;
+  right: 10%;
+  top: -8%;
+}
+.twelve-right-two{
+  position: absolute;
+  width: 40%;
+  right: 100%;
+  top: 20%;
+}
+.twelve-right-three{
+  position: absolute;
+  width: 50%;
+  top: 55%;
+  right: 88%;
+}
+.twelve-top-left-tp{
+  position: absolute;
+  width: 30%;
+  left: 33%;
+  top: 30%;
+}
+.twelve-top-left-tp1{
+  position: absolute;
+  width: 80%;
+  top: -13%;
+  left: 10%;
+}
+.twelve-top-left-tp2{
+  position: absolute;
+  width: 45%;
+  right: -3%;
+  top: 20%;
+}
+.twelve-top-left-tp3{
+  position: absolute;
+  width: 8%;
+  left: 10%;
+  top:  40%;
+}
+.twelve-top-right-tp{
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  top: 10%;
+}
+.twelve-top-right-tp1{
+  position: absolute;
+  width: 8%;
+  top: 20%;
+  left: 15%;
+}
+.twelve-top-right-tp2{
+  position: absolute;
+  width: 40%;
+  top: -18%;
+  right: -1%;
+}
+.twelve-top-three-tp{
+  position: absolute;
+  width: 45%;
+  left: 30%;
+  bottom: 10%;
+  opacity: 0;
+}
+.twelve-top-three-tpt{
+  animation: showtow 3s ease-in-out forwards;
+}
+.twelve-top-three-tp1{
+  position: absolute;
+  width: 37%;
+  right: 1%;
+  bottom: 65%;
+  opacity: 0;
+}
+.twelve-top-three-tp1t{
+  animation: enter-x-right 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+.twelve-top-three-tp2{
+  position: absolute;
+  width: 34%;
+  left: -6%;
+  bottom: 30%;
+  opacity: 0;
+}
+.twelve-top-three-tp2t{
+  animation: enter-x-left 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+
+.twelve-top-three-tp3{
+  position: absolute;
+  width: 35%;
+  right: -4%;
+  bottom: 13%;
+  opacity: 0;
+}
+.twelve-top-three-tp3t{
+  animation: enter-x-right 2s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
 }

@@ -1,14 +1,16 @@
+
 var ad = document.querySelector('.max-one');
 setTimeout(function () {
     ad.style.display = 'none';
-}, 4000);
+}, 11500);
 setTimeout(function () {
   bjTwo.classList.add('top-bj-twot');
-}, 3000);
+  Yun.classList.add('zj-topt')
+}, 12000);
 var ac = document.querySelector('.logo');
 setTimeout(function () {
     ac.style.display = 'none';
-}, 3800);
+}, 11000);
 function bottomone() {
     var image = document.getElementById('max-two');
     image.style.display = 'none';
@@ -24,7 +26,12 @@ const Buttwo = document.getElementById("Buttwo")
 Buttwo.onclick=function (){
     maxFive.style.display = "none";
 }
+const Butsix = document.getElementById("Butsix")
+Butsix.onclick=function (){
+    maxTen.style.display = "none";
+}
 var bjTwo = document.getElementsByClassName("top-bj-two")[0];
+var Yun = document.getElementsByClassName("zj-top")[0];
 
 var twoBottom = document.getElementsByClassName("two-bottom")[0];
 var maxTwo = document.getElementsByClassName("max-two")[0];
@@ -59,6 +66,9 @@ var maxSeven= document.getElementsByClassName("max-seven")[0];
 var bottomThree= document.getElementsByClassName("bottom-three")[0];
 var maxEight= document.getElementsByClassName("max-eight")[0];
 var maxNine= document.getElementsByClassName("max-nine")[0];
+var Baoxiang= document.getElementsByClassName("eleven-zj-tp")[0];
+var Baoxiangone= document.getElementsByClassName("eleven-zj-tp1")[0];
+var maxEleven= document.getElementsByClassName("max-eleven")[0];
 
 
 const Butthree = document.getElementById("Butthree")
@@ -79,9 +89,66 @@ Butfive.onclick = function () {
   maxNine.style.display = '';
 }
 
-const Butsix = document.getElementById("Butsix")
-Butsix.onclick = function () {
-  maxSix.style.display = '';
+
+var twelveBj= document.getElementsByClassName("twelve-tp")[0];
+var twelveBj1= document.getElementsByClassName("twelve-one-img")[0];
+var twelveBj2= document.getElementsByClassName("twelve-two-img")[0];
+var twelveBj3= document.getElementsByClassName("twelve-three-img")[0];
+var twelvetp= document.getElementsByClassName("twelve-zj")[0];
+var twelvetp1= document.getElementsByClassName("twelve-left")[0];
+var twelvetp2= document.getElementsByClassName("twelve-right")[0];
+var twelvetp3= document.getElementsByClassName('twelve-top-left-max')[0];
+var twelvetp4= document.getElementsByClassName('twelve-top-right-max')[0];
+var twelvetp5= document.getElementsByClassName('twelve-top-three-tp')[0];
+var twelvetp6= document.getElementsByClassName('twelve-top-three-tp1')[0];
+var twelvetp7= document.getElementsByClassName('twelve-top-three-tp2')[0];
+var twelvetp8= document.getElementsByClassName('twelve-top-three-tp3')[0];
+
+
+const Butseven = document.getElementById("Butseven")
+Butseven.onclick = function () {
+  Baoxiang.style.display = 'none';
+  Baoxiangone.classList.add('eleven-zj-tp1t');
+  setTimeout(() => {
+    maxEleven.style.display = 'none';
+    twelveBj.classList.add('twelve-tpt')
+  }, 3000);
+  setTimeout(() => {
+    twelveBj1.classList.add('twelve-one-imgt')
+  }, 4300);
+  setTimeout(() => {
+    twelveBj2.classList.add('twelve-two-imgt')
+  }, 5600);
+  setTimeout(() => {
+    twelveBj3.classList.add('twelve-three-imgt')
+  }, 6900);
+  setTimeout(() => {
+    twelvetp.classList.add('twelve-zjt')
+  }, 8200);
+  setTimeout(() => {
+    twelvetp1.classList.add('twelve-leftt')
+  }, 9500);
+  setTimeout(() => {
+    twelvetp2.classList.add('twelve-rightt')
+  }, 10800);
+  setTimeout(() => {
+    twelvetp3.classList.add('twelve-top-left-maxt')
+  }, 12100);
+  setTimeout(() => {
+    twelvetp4.classList.add('twelve-top-right-maxt')
+  }, 13400);
+  setTimeout(() => {
+    twelvetp5.classList.add('twelve-top-three-tpt')
+  }, 14700);
+  setTimeout(() => {
+    twelvetp6.classList.add('twelve-top-three-tp1t')
+  }, 16000);
+  setTimeout(() => {
+    twelvetp7.classList.add('twelve-top-three-tp2t')
+  }, 17300);
+  setTimeout(() => {
+    twelvetp8.classList.add('twelve-top-three-tp3t')
+  }, 18600);
 }
 
 twoBottom.onclick = function () {
@@ -91,86 +158,86 @@ twoBottom.onclick = function () {
     setTimeout(() => {
         ganTan.classList.add('gantant');
     
-      }, 2000);
+      }, 1000);
       setTimeout(() => {
         imgOne.classList.add('two-one-imgt');
     
-      }, 4000);
+      }, 2300);
       setTimeout(() => {
         Ten.classList.add('tent');
     
-      }, 6000);
+      }, 3600);
       setTimeout(() => {
         imgTwo.classList.add('two-two-imgt');
     
-      }, 8000);
+      }, 4900);
       setTimeout(() => {
         wzOne.classList.add('wz-onet');
     
-      }, 10000);
+      }, 6200);
       setTimeout(() => {
         imgThree.classList.add('top-three-imgt');
     
-      }, 12000);
+      }, 7500);
       
       setTimeout(() => {
         tjOne.classList.add('tj-onet');
     
-      }, 14000);
+      }, 8800);
       setTimeout(() => {
         wzTwo.classList.add('wz-twot');
     
-      }, 16000);
+      }, 9100);
       setTimeout(() => {
         tjTwo.classList.add('tj-twot');
         tjThree.classList.add('tj-threet');
-      }, 18000);
+      }, 10400);
       setTimeout(() => {
         gantanOne.classList.add('gantan-onet');
         gantanTwo.classList.add('gantan-onet');
-      }, 20000);
+      }, 11700);
       setTimeout(() => {
         maxThree.style.display='none';
-      }, 23000);
+      }, 14700);
       setTimeout(() => {
         imgFour.classList.add('top-four-imgt');
-      }, 25000);
+      }, 16000);
       setTimeout(() => {
         imgFive.classList.add('bottom-four-imgt');
-      }, 27000);
+      }, 17300);
       setTimeout(() => {
         wzThree.classList.add('four-wz-onet');
-      }, 29000);
+      }, 18600);
       setTimeout(() => {
         txOne.classList.add('four-tx-onet');
-      }, 31000);
+      }, 19900);
       setTimeout(() => {
         wzFour.classList.add('four-wz-twot');
-      }, 33000);
+      }, 21200);
       setTimeout(() => {
         txTwo.classList.add('four-tx-threet');
-      }, 35000);
+      }, 22500);
       setTimeout(() => {
         wzFive.classList.add('four-wz-threet');
-      }, 37000);
+      }, 23800);
       setTimeout(() => {
         txThree.classList.add('four-tx-twot');
-      }, 39000);
+      }, 25100);
       setTimeout(() => {
         imgSix.classList.add('wz-four-imgt');
         imgSeven.classList.add('wz-four-imgtwot')
-      }, 41000);
+      }, 26400);
       setTimeout(() => {
         maxFour.style.display='none';
-      }, 44000);
+      }, 29400);
       setTimeout(() => {
         zImg.classList.add('expanded');
         xImg.classList.add('down');
         pOne.classList.add('p-onet')
-      }, 46000);
+      }, 30700);
       setTimeout(() => {
         pTow.classList.add('p-towt')
-      }, 48000);
+      }, 32000);
 }
 
 var zImg = document.getElementsByClassName("z-img")[0];
@@ -199,27 +266,27 @@ Butthree.onclick = function () {
   sevenBj.classList.add('seven-top-bjt');
   setTimeout(() => {
     sevenBjtwo.classList.add('seven-bottom-bjt')
-  }, 2000);
+  }, 1300);
   setTimeout(() => {
     seventopTp.classList.add('seven-top-tpt');
     seventopTp1.classList.add('seven-top-tp1t');
-  }, 4000);
+  }, 2600);
   setTimeout(() => {
     seventopTp2.classList.add('seven-top-tp2t');
-  }, 6000);
+  }, 3900);
   setTimeout(() => {
     seventopTp3.classList.add('seven-top-tp3t');
-  }, 8000);
+  }, 5200);
   setTimeout(() => {
     seventopTp4.classList.add('seven-top-tp4t');
-  }, 10000);
+  }, 6500);
   setTimeout(() => {
     sevenbottomTp1.classList.add('seven-bottom-tp1t');
     sevenbottomTp2.classList.add('seven-bottom-tp2t');
-  }, 12000);
+  }, 7800);
   setTimeout(() => {
     maxSeven.style.display ='none';
-  }, 14000);
+  }, 11800);
 }
 
 
@@ -240,24 +307,24 @@ Butfour.onclick = function () {
   eighttopTp1.classList.add('eight-top-tp1t');
   setTimeout(() => {
     eightbottomTp1.classList.add('eight-bottom-tp1t');
-  }, 2000);
+  }, 1300);
   setTimeout(() => {
     eighttopTp2.classList.add('eight-top-tp2t');
     eighttopTp3.classList.add('eight-top-tp3t');
-  }, 4000);
+  }, 2600);
   setTimeout(() => {
     eighttopTp4.classList.add('eight-top-tp4t');
-  }, 6000);
+  }, 3900);
   setTimeout(() => {
     eightbottomTp2.classList.add('eight-bottom-tp2t');
-  }, 8000);
+  }, 5200);
   setTimeout(() => {
     eightbottomTp5.classList.add('eight-bottom-tp5t');
     eightbottomTp3.classList.add('eight-bottom-tp3t');
-  }, 10000);
+  }, 6500);
   setTimeout(() => {
     maxEight.style.display ='none';
-  }, 13000);
+  }, 10500);
 }
 
 
@@ -280,24 +347,37 @@ Butfive.onclick = function () {
   ninetopTp.classList.add('nine-top-tpt');
   setTimeout(() => {
     ninebottomTp1.classList.add('nine-bottom-tp1t');
-  }, 2000);
+  }, 1300);
   setTimeout(() => {
     ninetopTp1.classList.add('nine-top-tp1t');
-  }, 4000);
+  }, 2600);
   setTimeout(() => {
     ninetopTp2.classList.add('nine-top-tp2t');
-  }, 6000);
+  }, 3900);
   setTimeout(() => {
     ninebottomTp2.classList.add('nine-bottom-tp2t');
-  }, 8000);
+  }, 5200);
   setTimeout(() => {
     ninebottomTp3.classList.add('nine-bottom-tp3t');
-  }, 10000);
+  }, 6500);
   setTimeout(() => {
     ninebottomTp4.classList.add('nine-bottom-tp4t');
     ninebottomTp5.classList.add('nine-bottom-tp5t');
-  }, 12000);
+  }, 7800);
   setTimeout(() => {
     maxNine.style.display ='none';
-  }, 15000);
+  }, 11800);
 }
+var progressbar = {
+  init: function () {
+    var fill = document.getElementById('fill');
+    var count = 0;
+    //通过间隔定时器实现百分比文字效果,通过计算CSS动画持续时间进行间隔设置
+    var timer = setInterval(function (e) {
+      count++;
+      fill.innerHTML = count + '%';
+      if (count === 100) clearInterval(timer);
+    }, 100);
+  }
+};
+progressbar.init();
