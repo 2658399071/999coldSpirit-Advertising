@@ -207,11 +207,6 @@ body{
 }
 .bottom-one{
   width: 60%;
-  height: 35%;
-  background-color: #f59607;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
   position: absolute;
   top: 10%;
 }
@@ -361,9 +356,21 @@ body{
   opacity: 0;
 }
 .gantant{
-  animation: enter-x-left 2s ease-in-out 0.3s;
-  animation-fill-mode: forwards;
-  transform: translateX(-50px);
+
+  animation: showtowt 2s ease-in-out forwards;
+}
+@keyframes showtowt {
+  0% {
+    opacity: 0;
+    /* 初始状态为完全透明 */
+  }
+  50%{
+    width: 40%;
+  }
+  100% {
+    opacity: 1;
+    /* 结束时为完全不透明 */
+  }  
 }
 .ten{
   width: 85%;
