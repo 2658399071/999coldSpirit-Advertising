@@ -179,65 +179,58 @@ twoBottom.onclick = function () {
         imgThree.classList.add('top-three-imgt');
     
       }, 7500);
-      
       setTimeout(() => {
         tjOne.classList.add('tj-onet');
-    
+        tjTwo.classList.add('tj-twot');
+        tjThree.classList.add('tj-threet');
+        gantanOne.classList.add('gantan-onet');
+        gantanTwo.classList.add('gantan-onet');
       }, 8800);
       setTimeout(() => {
         wzTwo.classList.add('wz-twot');
-    
-      }, 9100);
-      setTimeout(() => {
-        tjTwo.classList.add('tj-twot');
-        tjThree.classList.add('tj-threet');
-      }, 10400);
-      setTimeout(() => {
-        gantanOne.classList.add('gantan-onet');
-        gantanTwo.classList.add('gantan-onet');
-      }, 11700);
+      }, 10100);
       setTimeout(() => {
         maxThree.style.display='none';
-      }, 14700);
+      }, 13100);
       setTimeout(() => {
         imgFour.classList.add('top-four-imgt');
-      }, 16000);
+      }, 14400);
       setTimeout(() => {
         imgFive.classList.add('bottom-four-imgt');
-      }, 17300);
+      }, 15700);
       setTimeout(() => {
         wzThree.classList.add('four-wz-onet');
-      }, 18600);
+      }, 17000);
       setTimeout(() => {
         txOne.classList.add('four-tx-onet');
-      }, 19900);
+      }, 18300);
       setTimeout(() => {
         wzFour.classList.add('four-wz-twot');
-      }, 21200);
+      }, 19600);
       setTimeout(() => {
         txTwo.classList.add('four-tx-threet');
-      }, 22500);
+      }, 20900);
       setTimeout(() => {
         wzFive.classList.add('four-wz-threet');
-      }, 23800);
+      }, 22200);
       setTimeout(() => {
         txThree.classList.add('four-tx-twot');
-      }, 25100);
+      }, 235000);
       setTimeout(() => {
         imgSix.classList.add('wz-four-imgt');
         imgSeven.classList.add('wz-four-imgtwot')
-      }, 26400);
+      }, 24800);
       setTimeout(() => {
         maxFour.style.display='none';
-      }, 29400);
+      }, 26100);
       setTimeout(() => {
         zImg.classList.add('expanded');
         xImg.classList.add('down');
         pOne.classList.add('p-onet')
-      }, 30700);
+      }, 27400);
       setTimeout(() => {
         pTow.classList.add('p-towt')
-      }, 32000);
+      }, 28700);
 }
 
 var zImg = document.getElementsByClassName("z-img")[0];
