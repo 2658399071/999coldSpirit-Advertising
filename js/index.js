@@ -1,3 +1,29 @@
+const bgMusic = document.getElementById("bgMusic");
+const react_root = document.getElementById("music");
+const music_top = document.getElementById("music_img_page_stop");
+function toggleMusic() {
+  if (bgMusic.paused) {
+    playBackgroundMusic();
+  }
+
+  else {
+    pauseBackgroundMusic();
+  }
+}
+
+// 播放音乐
+function playBackgroundMusic() {
+  bgMusic.play();
+  react_root.classList.add("musicRotate");
+  music_top.style.display="none";
+}
+
+// 暂停音乐
+function pauseBackgroundMusic() {
+  bgMusic.pause();
+  react_root.classList.remove("musicRotate");
+  music_top.style.display="block";
+}
 
 var ad = document.querySelector('.max-one');
 setTimeout(function () {
