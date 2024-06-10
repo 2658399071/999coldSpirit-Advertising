@@ -135,11 +135,15 @@ var twelvetp6= document.getElementsByClassName('twelve-top-three-tp1')[0];
 var twelvetp7= document.getElementsByClassName('twelve-top-three-tp2')[0];
 var twelvetp8= document.getElementsByClassName('twelve-top-three-tp3')[0];
 var thirteenOne = document.getElementsByClassName('thirteen-one')[0];
+var elevenTp1= document.getElementsByClassName('eleven-one-tp3')[0];
+
 
 const Butseven = document.getElementById("Butseven")
 Butseven.onclick = function () {
   Baoxiang.style.display = 'none';
   Baoxiangone.classList.add('eleven-zj-tp1t');
+  elevenTp1.classList.add('eleven-one-tp3t');
+
   setTimeout(() => {
     maxEleven.style.display = 'none';
     twelveBj.classList.add('twelve-tpt')

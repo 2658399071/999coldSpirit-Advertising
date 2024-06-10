@@ -1907,9 +1907,9 @@ body {
 
 .ten-zj-tp4 {
   position: absolute;
-  width: 61%;
-  left: 21%;
-  bottom: 30%;
+  width: 75%;
+  left: 14%;
+  bottom: 18%;
   z-index: 8;
 }
 
@@ -1923,12 +1923,12 @@ body {
 
 .bottom-six {
   width: 40%;
-  animation: guangtwo 1.5s linear infinite;
+  animation: guangtwo 2.5s linear infinite;
 }
 
 .bottom-eight {
   width: 40%;
-  animation: guangtwo 1.5s linear infinite;
+  animation: guangtwo 2.5s linear infinite;
 }
 
 .max-eleven {
@@ -2152,6 +2152,13 @@ body {
   width: 90%;
   top: -15%;
   left: 15%;
+  opacity: 0;
+}
+
+.eleven-one-tp3t{
+  animation: four-x-right 0.5s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateY(300px);
 }
 
 .eleven-one-tp3>img {
@@ -2442,10 +2449,10 @@ body {
 }
 
 .twelve-top-left-tp {
+  bottom: 15%;
   position: absolute;
-  width: 30%;
+  width: 35%;
   left: 30%;
-  top: 24%;
 }
 
 .twelve-top-left-tp1 {
