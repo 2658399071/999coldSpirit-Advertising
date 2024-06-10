@@ -909,7 +909,7 @@ body {
 .six-tp2 {
   position: absolute;
   top: 39%;
-  width: 20%;
+  width: 15%;
   right: 9%;
   animation: guang 2s linear forwards, blink 1s infinite;
 }
@@ -917,7 +917,7 @@ body {
 .six-tp3 {
   position: absolute;
   bottom: 40%;
-  width: 20%;
+  width: 15%;
   left: 10%;
   animation: guang 2s linear forwards, blink 1s infinite;
 }
@@ -925,7 +925,7 @@ body {
 .six-tp4 {
   position: absolute;
   bottom: 10%;
-  width: 20%;
+  width: 15%;
   left: 39%;
   animation: guang 2s linear forwards, blink 1s infinite;
 }
@@ -1102,11 +1102,11 @@ body {
 }
 
 .top-img {
-  top: 0.55%;
+  top: 0.2%;
 }
 
 .bottom-img {
-  top: -0.2%;
+  top: -0.55%;
 }
 
 .max-six {
@@ -1907,8 +1907,8 @@ body {
 
 .ten-zj-tp4 {
   position: absolute;
-  width: 75%;
-  left: 14%;
+  width: 90%;
+  left: 7%;
   bottom: 18%;
   z-index: 8;
 }
@@ -1923,12 +1923,30 @@ body {
 
 .bottom-six {
   width: 40%;
-  animation: guangtwo 2.5s linear infinite;
+  margin-top: -5%;
+  animation: guangtwot 1.5s linear infinite;
 }
 
 .bottom-eight {
   width: 40%;
-  animation: guangtwo 2.5s linear infinite;
+  margin-top: -5%;
+  animation: guangtwot 1.5s linear infinite;
+}
+
+@keyframes guangtwot {
+  0% {
+    /* width: 60%; */
+    transform: scale(1);
+  }
+
+  50% {
+    /* width: 65%; */
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .max-eleven {
@@ -2156,7 +2174,7 @@ body {
 }
 
 .eleven-one-tp3t{
-  animation: four-x-right 0.5s ease-in-out 0.3s;
+  animation: four-x-right 1.0s ease-in-out 0.3s;
   animation-fill-mode: forwards;
   transform: translateY(300px);
 }
