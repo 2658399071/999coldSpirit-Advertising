@@ -1890,10 +1890,10 @@ body {
 
 .ten-zj-tp3 {
   position: absolute;
-  width: 30%;
+  width: 40%;
   z-index: 8;
-  left: 37%;
-  top: -10%;
+  left: 32%;
+  top: -20%;
 }
 
 .ten-zj-tp3>img {
@@ -1940,7 +1940,7 @@ body {
 
   50% {
     /* width: 65%; */
-    transform: scale(1.1);
+    transform: scale(1.06);
   }
 
   100% {
@@ -2635,8 +2635,8 @@ body {
 
 .thirteen-tp2 {
   position: absolute;
-  top: 30%;
-  animation: guangtwo 1.5s linear infinite;
+  top: 15%;
+  animation: guangtwot 1.5s linear infinite;
 
 }
 
