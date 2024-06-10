@@ -905,10 +905,9 @@ body {
 .six-tp4>img {
   width: 100%;
 }
-
 .six-tp2 {
   position: absolute;
-  top: 39%;
+  top: 40%;
   width: 15%;
   right: 9%;
   animation: guang 2s linear forwards, blink 1s infinite;
