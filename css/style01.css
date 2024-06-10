@@ -2162,12 +2162,13 @@ body {
   transform: rotateZ(-18deg);
   left: 20%;
   top: 50%;
+  opacity: 0;
 }
 
 .eleven-one-tp2t{
   animation: four-x-right 1.5s ease-in-out 0.3s;
   animation-fill-mode: forwards;
-  transform: translateY(300px);
+  transform: translateY(135px);
 }
 
 .eleven-one-tp3 {
