@@ -2671,7 +2671,7 @@ body {
   border-radius: 50%;
   border: 2px solid #ffffff;
   z-index: 7;
-  animation: guangone 2s linear infinite;
+  animation: guangonet 2s linear infinite;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2684,10 +2684,10 @@ body {
   border-radius: 50%;
   background: #ffffff;
   z-index: 7;
-  animation: guangone 2s linear infinite;
+  animation: guangonet 2s linear infinite;
 }
 
-@keyframes guangone {
+@keyframes guangonet {
   0% {
     width: 12%;
     height: 10%;
