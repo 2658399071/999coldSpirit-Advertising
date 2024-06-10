@@ -2173,7 +2173,7 @@ body {
 }
 
 .eleven-one-tp3t{
-  animation: four-x-right 1.0s ease-in-out 0.3s;
+  animation: four-x-right 1.5s ease-in-out 0.3s;
   animation-fill-mode: forwards;
   transform: translateY(300px);
 }
@@ -2635,7 +2635,7 @@ body {
 
 .thirteen-tp2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   animation: guangtwot 1.5s linear infinite;
 
 }
