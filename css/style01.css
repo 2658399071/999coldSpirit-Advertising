@@ -2,9 +2,6 @@
   padding: 0;
   margin: 0;
 }
-
-
-
 li {
   list-style: none;
   display: flex;
@@ -994,7 +991,7 @@ body {
 }
 
 .z-img {
-  width: 81.60%;
+  width: 77.60%;
   height: 0;
   overflow: hidden;
   /* position: absolute; */
@@ -2160,6 +2157,7 @@ body {
   left: 20%;
   top: 50%;
   opacity: 0;
+  z-index: 9;
 }
 
 .eleven-one-tp2t{
@@ -2174,6 +2172,7 @@ body {
   top: -15%;
   left: 15%;
   opacity: 0;
+  z-index: 9;
 }
 
 .eleven-one-tp4t{
