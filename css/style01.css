@@ -1003,7 +1003,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: space-around;
   background-image: url("../images/juanzhou2.png");
   background-size: 100% 100%;
 }
@@ -1032,7 +1032,6 @@ body {
 .p-one-img {
   /* width: 75%; */
   height: 15%;
-  margin-top: 5%;
   /* position: absolute;
   top: -30%;
   left: 10%; */
@@ -1040,7 +1039,6 @@ body {
 
 .p-two-img {
   width: 77%;
-  margin-top: 5%;
 }
 
 .p-onet {
@@ -1051,7 +1049,7 @@ body {
   width: 85%;
   display: flex;
   justify-content: center;
-  margin-top: 20%;
+  margin-top: 5%;
 
 }
 
@@ -1929,7 +1927,6 @@ body {
 .bottom-eight {
   width: 40%;
   margin-top: -5%;
-  animation: guangtwot 1.5s linear infinite;
 }
 
 @keyframes guangtwot {
@@ -2135,7 +2132,7 @@ body {
   width: 100%;
 }
 
-.eleven-one-tp3>img {
+.eleven-one-tp4>img {
   width: 100%;
 }
 
@@ -2166,12 +2163,12 @@ body {
 }
 
 .eleven-one-tp2t{
-  animation: four-x-right 1.5s ease-in-out 0.3s;
+  animation: four-x-rightt 1.5s ease-in-out 0.3s;
   animation-fill-mode: forwards;
   transform: translateY(110px);
 }
 
-.eleven-one-tp3 {
+.eleven-one-tp4 {
   position: absolute;
   width: 90%;
   top: -15%;
@@ -2179,10 +2176,30 @@ body {
   opacity: 0;
 }
 
-.eleven-one-tp3t{
-  animation: four-x-right 1.5s ease-in-out 0.3s;
+.eleven-one-tp4t{
+  animation: four-x-righta 1.5s ease-in-out 0.3s;
   animation-fill-mode: forwards;
   transform: translateY(300px);
+}
+@keyframes four-x-rightt {
+  0%{
+    opacity: 0;
+    transform: translateY(120px) scale(0);
+  }
+  100%{
+    transform: translateY(0) scale(1) ;
+    opacity: 1;
+  }
+}
+@keyframes four-x-righta {
+  0%{
+    opacity: 0;
+    transform: translateY(340px) scale(0);
+  }
+  100%{
+    transform: translateY(0) scale(1) ;
+    opacity: 1;
+  }
 }
 
 .eleven-one-tp3>img {
@@ -2217,7 +2234,7 @@ body {
   height: 33%;
   display: flex;
   justify-content: space-between;
-  margin-top: 12%;
+  margin-top: 5%;
 }
 
 .twelve-top-three {
@@ -2236,6 +2253,7 @@ body {
 
 .twelve-tp>img {
   width: 100%;
+  height: 100%;
 }
 
 
@@ -2337,15 +2355,19 @@ body {
   opacity: 0;
 }
 
+.twelve-top-right-max > div{
+  /* opacity: 0; */
+  /* animation: showtow 3s ease-in-out forwards; */
+
+}
+
 .twelve-top-right-maxt {
   animation: showtow 3s ease-in-out forwards;
 }
 
 .twelve-left-one {
-  position: absolute;
   width: 90%;
-  left: 10%;
-  top: 2%;
+  margin: 6%;
 }
 
 .twelve-left-one>img {
@@ -2641,6 +2663,7 @@ body {
 }
 
 .thirteen-tp2 {
+  width: 50%;
   position: absolute;
   top: 10%;
   animation: guangtwot 1.5s linear infinite;
@@ -2673,8 +2696,8 @@ body {
 }
 
 .eleven-dianji {
-  width: 12%;
-  height: 10%;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 2px solid #ffffff;
   z-index: 7;
@@ -2686,8 +2709,8 @@ body {
 }
 
 .eleven-dianji1 {
-  width: 17%;
-  height: 15%;
+  width: 60%;
+  height: 59%;
   border-radius: 50%;
   background: #ffffff;
   z-index: 7;
@@ -2696,25 +2719,26 @@ body {
 
 @keyframes guangonet {
   0% {
-    width: 12%;
-    height: 10%;
+    transform: scale(1);
     opacity: 0.5;
+    
   }
 
   50% {
+    transform: scale(1.2);
     opacity: 0.5;
-    width: 17%;
-    height: 15%;
   }
 
   100% {
-    width: 12%;
-    height: 10%;
+    transform: scale(1);
     opacity: 0.5;
   }
 }
 
 .thirteen-tp>img {
+  width: 100%;
+}
+.thirteen-tp2>img {
   width: 100%;
 }
 
@@ -2801,5 +2825,14 @@ body {
   display: none;
 }
 .music_img_page>img{
+  width: 100%;
+}
+.bottom-ten{
+  width: 50%;
+  position: absolute;
+  top: 45%;
+  animation: guangtwot 1.5s linear infinite;
+}
+.bottom-ten>img{
   width: 100%;
 }

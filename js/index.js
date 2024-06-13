@@ -26,9 +26,11 @@ function pauseBackgroundMusic() {
 }
 
 var ad = document.querySelector('.max-one');
-setTimeout(function () {
+var adDisplay =  setTimeout(function () {
     ad.style.display = 'none';
 }, 11500);
+//  clearTimeout(adDisplay)
+
 setTimeout(function () {
   bjTwo.classList.add('top-bj-twot');
   Yun.classList.add('zj-topt')
@@ -46,7 +48,8 @@ const But = document.getElementById("But")
 const two_page = document.getElementById("max-two")
 But.onclick=function (){
     two_page.style.display = "none";
-    console.log("2")
+    // 播放音乐
+    bgMusic.play()
 }
 const Buttwo = document.getElementById("Buttwo")
 Buttwo.onclick=function (){
@@ -135,7 +138,7 @@ var twelvetp6= document.getElementsByClassName('twelve-top-three-tp1')[0];
 var twelvetp7= document.getElementsByClassName('twelve-top-three-tp2')[0];
 var twelvetp8= document.getElementsByClassName('twelve-top-three-tp3')[0];
 var thirteenOne = document.getElementsByClassName('thirteen-one')[0];
-var elevenTp1= document.getElementsByClassName('eleven-one-tp3')[0];
+var elevenTp1= document.getElementsByClassName('eleven-one-tp4')[0];
 var elevenTp2= document.getElementsByClassName('eleven-one-tp2')[0];
 
 
@@ -143,7 +146,7 @@ const Butseven = document.getElementById("Butseven")
 Butseven.onclick = function () {
   Baoxiang.style.display = 'none';
   Baoxiangone.classList.add('eleven-zj-tp1t');
-  elevenTp1.classList.add('eleven-one-tp3t');
+  elevenTp1.classList.add('eleven-one-tp4t');
   elevenTp2.classList.add('eleven-one-tp2t');
 
   setTimeout(() => {
@@ -416,3 +419,8 @@ var progressbar = {
   }
 };
 progressbar.init();
+// window.location.reload();
+const Butten = document.getElementById("Butten")
+Butten.onclick =function (){
+  window.location.reload();
+}
